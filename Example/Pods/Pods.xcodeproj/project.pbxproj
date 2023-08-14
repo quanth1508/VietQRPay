@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8DA4B597C48D3FC1406837A1CC36FD /* CRC16Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B446EDE2B7C9E9959673B2E23C41B /* CRC16Generator.swift */; };
+		4BC1E03B2CA553575CB2A492D546746A /* VietQRPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE961CF71A6BA89650D124DCDBB89B78 /* VietQRPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6339FAEA61FD3CC1663883A22BF1B399 /* VietQRPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42EFA33AD65DE43A454CB4311440DA /* VietQRPay.swift */; };
+		7E9289BC8ACFB69FED0A206F22CB8172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8AA3A22C27C327F3D31FA7F7E8096831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		909A33097EBDA519493B0379F66C28F1 /* Pods-VietQRPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD8BCED5025777B6DD02251F17BAEC2 /* Pods-VietQRPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACFC3BEC3E82C75C2FBBCF8BE5F5138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0BF3C82C60A3B47A5CE48E0B88DD96F /* VietQRPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DF9A96C7F021AC90018D096817786 /* VietQRPay-dummy.m */; };
+		CA039D9E0CA3144141CD88EA376B5DD0 /* Pods-VietQRPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDD165BC89D65F80371D3FB3E37D97 /* Pods-VietQRPay_Example-dummy.m */; };
+		E58BDFBE89B4DABEF644690A6F65617F /* VietQRPayField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CBF7A4C895784AF04925FA359CA566 /* VietQRPayField.swift */; };
+		EDF1A5BFDD694CDD9D7D2F50E81B0B0B /* Pods-VietQRPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 102912F2022D1E991279DEC0CA06B14A /* Pods-VietQRPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81ABDB6F64B73BC694F0EAA74F9E556 /* Pods-VietQRPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562B4DB79952684469DD234967D5CA34 /* Pods-VietQRPay_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9694EEB3B72C3348D22A18854D59BA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD74C3563A08F1A5134C967F0AFD8F5;
+			remoteInfo = "Pods-VietQRPay_Example";
+		};
+		B17024D610A2BC89F588F844A6206930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0572F4FC0F8675E43828B71F57540E95;
+			remoteInfo = VietQRPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0976A7F4C3DDA28CA88E19C7199A6C /* Pods-VietQRPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietQRPay_Example-Info.plist"; sourceTree = "<group>"; };
+		102912F2022D1E991279DEC0CA06B14A /* Pods-VietQRPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VietQRPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		1149969565924DEB8F12C34C77D39C2F /* Pods-VietQRPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietQRPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		151DF9A96C7F021AC90018D096817786 /* VietQRPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VietQRPay-dummy.m"; sourceTree = "<group>"; };
+		188E1CF2064AA04994C505A645A0C8F8 /* Pods-VietQRPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietQRPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF3AF85A297A0288460890434A2C162 /* VietQRPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VietQRPay-Info.plist"; sourceTree = "<group>"; };
+		1F42EFA33AD65DE43A454CB4311440DA /* VietQRPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VietQRPay.swift; path = VietQRPay/Classes/VietQRPay.swift; sourceTree = "<group>"; };
+		360578AEEEA500E0E0BBF7C1EE88A6D8 /* Pods-VietQRPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VietQRPay_Tests.modulemap"; sourceTree = "<group>"; };
+		388AB5B94EB6E745C8AEF7EEAAE3D58F /* Pods-VietQRPay_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VietQRPay_Tests"; path = Pods_VietQRPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A56CDEB80D3FABFEF75CC232036DBAB /* Pods-VietQRPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietQRPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		51483F427A0EEE999337426755C5E6C3 /* Pods-VietQRPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VietQRPay_Example.modulemap"; sourceTree = "<group>"; };
+		562B4DB79952684469DD234967D5CA34 /* Pods-VietQRPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VietQRPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		56530EEBBBF66451DC94DCEEA0FDA4BB /* Pods-VietQRPay_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VietQRPay_Example"; path = Pods_VietQRPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		587BA6580FDB75763449FBBF18FFA21A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		64B0F6104AD76FF316265BC18C07D42F /* Pods-VietQRPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietQRPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75066DAEFF1364C41A9D183AFED5511C /* Pods-VietQRPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VietQRPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E794D6D1D3B7E3F76D61A3A9055A42C /* VietQRPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VietQRPay-prefix.pch"; sourceTree = "<group>"; };
+		82995AE9C111F7513E9BFF67E53FE367 /* VietQRPay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VietQRPay; path = VietQRPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CBF7A4C895784AF04925FA359CA566 /* VietQRPayField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VietQRPayField.swift; path = VietQRPay/Classes/VietQRPayField.swift; sourceTree = "<group>"; };
+		98288B965B04723076FF5D8C22E105E6 /* VietQRPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VietQRPay.modulemap; sourceTree = "<group>"; };
+		986B446EDE2B7C9E9959673B2E23C41B /* CRC16Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRC16Generator.swift; path = VietQRPay/Classes/CRC16Generator.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5707F07A451FDAF2274718B04B050A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE961CF71A6BA89650D124DCDBB89B78 /* VietQRPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VietQRPay-umbrella.h"; sourceTree = "<group>"; };
+		B1AB2B4E79C9DF1E91AD33B2C2356BBA /* Pods-VietQRPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietQRPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B4B33B4373FA1B0BE0AB57194F271C59 /* Pods-VietQRPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VietQRPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B9AE86511E5E0E21462A1DE08262E186 /* VietQRPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VietQRPay.release.xcconfig; sourceTree = "<group>"; };
+		BB687CA03AC97405F34F1626B410E41D /* Pods-VietQRPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietQRPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C23253F1DC16C8B07CD78AA82ADF3FC9 /* Pods-VietQRPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietQRPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C757A049A1F4B195FDADA55B60980B60 /* VietQRPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VietQRPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF2531B28D366D1632AEE63A267DBF7B /* VietQRPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VietQRPay.debug.xcconfig; sourceTree = "<group>"; };
+		E2BDD165BC89D65F80371D3FB3E37D97 /* Pods-VietQRPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VietQRPay_Example-dummy.m"; sourceTree = "<group>"; };
+		EBD8BCED5025777B6DD02251F17BAEC2 /* Pods-VietQRPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VietQRPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FCB149E5214F727A355FDBF5709B6FCD /* Pods-VietQRPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VietQRPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E731D423E462A2AB9A2B45630C507B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA3A22C27C327F3D31FA7F7E8096831 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961B2B4DE7B2C58587639CE621A3B677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACFC3BEC3E82C75C2FBBCF8BE5F5138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E724BBBB626C6676864C7753C66B6EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9289BC8ACFB69FED0A206F22CB8172 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456981761B1ADA1F1B47B700DD6F6144 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C29B5D81C19B54A691F5EE0D87888326 /* VietQRPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64F7331C5E119C509DA3E15411D96F9C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				587BA6580FDB75763449FBBF18FFA21A /* LICENSE */,
+				A5707F07A451FDAF2274718B04B050A1 /* README.md */,
+				C757A049A1F4B195FDADA55B60980B60 /* VietQRPay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		769811972558BFA6A4B819873515578F /* Pods-VietQRPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				360578AEEEA500E0E0BBF7C1EE88A6D8 /* Pods-VietQRPay_Tests.modulemap */,
+				FCB149E5214F727A355FDBF5709B6FCD /* Pods-VietQRPay_Tests-acknowledgements.markdown */,
+				BB687CA03AC97405F34F1626B410E41D /* Pods-VietQRPay_Tests-acknowledgements.plist */,
+				562B4DB79952684469DD234967D5CA34 /* Pods-VietQRPay_Tests-dummy.m */,
+				3A56CDEB80D3FABFEF75CC232036DBAB /* Pods-VietQRPay_Tests-Info.plist */,
+				EBD8BCED5025777B6DD02251F17BAEC2 /* Pods-VietQRPay_Tests-umbrella.h */,
+				188E1CF2064AA04994C505A645A0C8F8 /* Pods-VietQRPay_Tests.debug.xcconfig */,
+				64B0F6104AD76FF316265BC18C07D42F /* Pods-VietQRPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-VietQRPay_Tests";
+			path = "Target Support Files/Pods-VietQRPay_Tests";
+			sourceTree = "<group>";
+		};
+		A71DB8AC4EDBD51A5CA5DA9129C8B93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56530EEBBBF66451DC94DCEEA0FDA4BB /* Pods-VietQRPay_Example */,
+				388AB5B94EB6E745C8AEF7EEAAE3D58F /* Pods-VietQRPay_Tests */,
+				82995AE9C111F7513E9BFF67E53FE367 /* VietQRPay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29B5D81C19B54A691F5EE0D87888326 /* VietQRPay */ = {
+			isa = PBXGroup;
+			children = (
+				986B446EDE2B7C9E9959673B2E23C41B /* CRC16Generator.swift */,
+				1F42EFA33AD65DE43A454CB4311440DA /* VietQRPay.swift */,
+				91CBF7A4C895784AF04925FA359CA566 /* VietQRPayField.swift */,
+				64F7331C5E119C509DA3E15411D96F9C /* Pod */,
+				D9756A8062E881F213BE045B2087A190 /* Support Files */,
+			);
+			name = VietQRPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C2F140193F8E14FF45DC63152573F228 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8F83AC208D74DECAD99DBAA7ED9E8F6 /* Pods-VietQRPay_Example */,
+				769811972558BFA6A4B819873515578F /* Pods-VietQRPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				456981761B1ADA1F1B47B700DD6F6144 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A71DB8AC4EDBD51A5CA5DA9129C8B93E /* Products */,
+				C2F140193F8E14FF45DC63152573F228 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9756A8062E881F213BE045B2087A190 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98288B965B04723076FF5D8C22E105E6 /* VietQRPay.modulemap */,
+				151DF9A96C7F021AC90018D096817786 /* VietQRPay-dummy.m */,
+				1EF3AF85A297A0288460890434A2C162 /* VietQRPay-Info.plist */,
+				7E794D6D1D3B7E3F76D61A3A9055A42C /* VietQRPay-prefix.pch */,
+				AE961CF71A6BA89650D124DCDBB89B78 /* VietQRPay-umbrella.h */,
+				DF2531B28D366D1632AEE63A267DBF7B /* VietQRPay.debug.xcconfig */,
+				B9AE86511E5E0E21462A1DE08262E186 /* VietQRPay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VietQRPay";
+			sourceTree = "<group>";
+		};
+		E8F83AC208D74DECAD99DBAA7ED9E8F6 /* Pods-VietQRPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				51483F427A0EEE999337426755C5E6C3 /* Pods-VietQRPay_Example.modulemap */,
+				75066DAEFF1364C41A9D183AFED5511C /* Pods-VietQRPay_Example-acknowledgements.markdown */,
+				C23253F1DC16C8B07CD78AA82ADF3FC9 /* Pods-VietQRPay_Example-acknowledgements.plist */,
+				E2BDD165BC89D65F80371D3FB3E37D97 /* Pods-VietQRPay_Example-dummy.m */,
+				B4B33B4373FA1B0BE0AB57194F271C59 /* Pods-VietQRPay_Example-frameworks.sh */,
+				0D0976A7F4C3DDA28CA88E19C7199A6C /* Pods-VietQRPay_Example-Info.plist */,
+				102912F2022D1E991279DEC0CA06B14A /* Pods-VietQRPay_Example-umbrella.h */,
+				1149969565924DEB8F12C34C77D39C2F /* Pods-VietQRPay_Example.debug.xcconfig */,
+				B1AB2B4E79C9DF1E91AD33B2C2356BBA /* Pods-VietQRPay_Example.release.xcconfig */,
+			);
+			name = "Pods-VietQRPay_Example";
+			path = "Target Support Files/Pods-VietQRPay_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19C16EEB59F759C16456820975FF6B0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC1E03B2CA553575CB2A492D546746A /* VietQRPay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73762ACF227ED295ACCEC226953870B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF1A5BFDD694CDD9D7D2F50E81B0B0B /* Pods-VietQRPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1B762219B532A279F4283688DC57C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909A33097EBDA519493B0379F66C28F1 /* Pods-VietQRPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0572F4FC0F8675E43828B71F57540E95 /* VietQRPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C34E85021A90A9814A2D51F501EEDE /* Build configuration list for PBXNativeTarget "VietQRPay" */;
+			buildPhases = (
+				19C16EEB59F759C16456820975FF6B0D /* Headers */,
+				C8979A02B8EDD73DB3A1FEAAA95C93ED /* Sources */,
+				E724BBBB626C6676864C7753C66B6EA6 /* Frameworks */,
+				152DC7D4378A1455EB030152B93A0B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VietQRPay;
+			productName = VietQRPay;
+			productReference = 82995AE9C111F7513E9BFF67E53FE367 /* VietQRPay */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DD74C3563A08F1A5134C967F0AFD8F5 /* Pods-VietQRPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BABDC7CDC495D4D2E592D625485EACF /* Build configuration list for PBXNativeTarget "Pods-VietQRPay_Example" */;
+			buildPhases = (
+				73762ACF227ED295ACCEC226953870B2 /* Headers */,
+				9166D9EE613C36203A5D9B747344D8C6 /* Sources */,
+				961B2B4DE7B2C58587639CE621A3B677 /* Frameworks */,
+				CDC73DD261477C69D1A724885B84E691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09BB2B0E4CDF880FE48D5A273371D2A /* PBXTargetDependency */,
+			);
+			name = "Pods-VietQRPay_Example";
+			productName = Pods_VietQRPay_Example;
+			productReference = 56530EEBBBF66451DC94DCEEA0FDA4BB /* Pods-VietQRPay_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EE2795CC3DAFA4898691522D7A20F57 /* Pods-VietQRPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7329877982D1421A583E24944A614E06 /* Build configuration list for PBXNativeTarget "Pods-VietQRPay_Tests" */;
+			buildPhases = (
+				9C1B762219B532A279F4283688DC57C1 /* Headers */,
+				757BDAC62EE98B12374C9A56D8E7F0A6 /* Sources */,
+				3E731D423E462A2AB9A2B45630C507B5 /* Frameworks */,
+				5EBEDB051DA5294BF99F53450C69F563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28363BD1A64025DD190D71A0B60D2A9C /* PBXTargetDependency */,
+			);
+			name = "Pods-VietQRPay_Tests";
+			productName = Pods_VietQRPay_Tests;
+			productReference = 388AB5B94EB6E745C8AEF7EEAAE3D58F /* Pods-VietQRPay_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A71DB8AC4EDBD51A5CA5DA9129C8B93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD74C3563A08F1A5134C967F0AFD8F5 /* Pods-VietQRPay_Example */,
+				8EE2795CC3DAFA4898691522D7A20F57 /* Pods-VietQRPay_Tests */,
+				0572F4FC0F8675E43828B71F57540E95 /* VietQRPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152DC7D4378A1455EB030152B93A0B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBEDB051DA5294BF99F53450C69F563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC73DD261477C69D1A724885B84E691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757BDAC62EE98B12374C9A56D8E7F0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81ABDB6F64B73BC694F0EAA74F9E556 /* Pods-VietQRPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9166D9EE613C36203A5D9B747344D8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA039D9E0CA3144141CD88EA376B5DD0 /* Pods-VietQRPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8979A02B8EDD73DB3A1FEAAA95C93ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8DA4B597C48D3FC1406837A1CC36FD /* CRC16Generator.swift in Sources */,
+				6339FAEA61FD3CC1663883A22BF1B399 /* VietQRPay.swift in Sources */,
+				B0BF3C82C60A3B47A5CE48E0B88DD96F /* VietQRPay-dummy.m in Sources */,
+				E58BDFBE89B4DABEF644690A6F65617F /* VietQRPayField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28363BD1A64025DD190D71A0B60D2A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VietQRPay_Example";
+			target = 5DD74C3563A08F1A5134C967F0AFD8F5 /* Pods-VietQRPay_Example */;
+			targetProxy = 9694EEB3B72C3348D22A18854D59BA9C /* PBXContainerItemProxy */;
+		};
+		F09BB2B0E4CDF880FE48D5A273371D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VietQRPay;
+			target = 0572F4FC0F8675E43828B71F57540E95 /* VietQRPay */;
+			targetProxy = B17024D610A2BC89F588F844A6206930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F1510E4FCF0220BAB8A10021A1671B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AB2B4E79C9DF1E91AD33B2C2356BBA /* Pods-VietQRPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VietQRPay_Example/Pods-VietQRPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VietQRPay_Example/Pods-VietQRPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6946203F6F670F6C465D749DDCDF7992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AE86511E5E0E21462A1DE08262E186 /* VietQRPay.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VietQRPay/VietQRPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VietQRPay/VietQRPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VietQRPay/VietQRPay.modulemap";
+				PRODUCT_MODULE_NAME = VietQRPay;
+				PRODUCT_NAME = VietQRPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78E1F3FAA58D2E9A0B5A4BC388949ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1149969565924DEB8F12C34C77D39C2F /* Pods-VietQRPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VietQRPay_Example/Pods-VietQRPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VietQRPay_Example/Pods-VietQRPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9F5A0A5978DD2042F65BE71BB91DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2531B28D366D1632AEE63A267DBF7B /* VietQRPay.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VietQRPay/VietQRPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VietQRPay/VietQRPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VietQRPay/VietQRPay.modulemap";
+				PRODUCT_MODULE_NAME = VietQRPay;
+				PRODUCT_NAME = VietQRPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD5E7BB3965F649EA173E3EC5C070373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188E1CF2064AA04994C505A645A0C8F8 /* Pods-VietQRPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VietQRPay_Tests/Pods-VietQRPay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VietQRPay_Tests/Pods-VietQRPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE20AF03EDFF87D3B5E48F1226A01106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B0F6104AD76FF316265BC18C07D42F /* Pods-VietQRPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VietQRPay_Tests/Pods-VietQRPay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VietQRPay_Tests/Pods-VietQRPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7329877982D1421A583E24944A614E06 /* Build configuration list for PBXNativeTarget "Pods-VietQRPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E7BB3965F649EA173E3EC5C070373 /* Debug */,
+				CE20AF03EDFF87D3B5E48F1226A01106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BABDC7CDC495D4D2E592D625485EACF /* Build configuration list for PBXNativeTarget "Pods-VietQRPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E1F3FAA58D2E9A0B5A4BC388949ABD /* Debug */,
+				4F1510E4FCF0220BAB8A10021A1671B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C34E85021A90A9814A2D51F501EEDE /* Build configuration list for PBXNativeTarget "VietQRPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F5A0A5978DD2042F65BE71BB91DCB7 /* Debug */,
+				6946203F6F670F6C465D749DDCDF7992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

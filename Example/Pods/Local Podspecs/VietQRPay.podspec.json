@@ -1,0 +1,22 @@
+{
+  "name": "VietQRPay",
+  "version": "0.0.1",
+  "summary": "A short description of VietQRPay.",
+  "description": "The library helps to analyze the content from the VietQR code and build the VietQR code from the information provided.",
+  "homepage": "https://github.com/quanth1508/VietQRPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "quanth1508": "quanth150820@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/quanth1508/VietQRPay.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "VietQRPay/Classes/**/*"
+}

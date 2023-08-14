@@ -1,0 +1,16 @@
+PODS:
+  - VietQRPay (0.0.1)
+
+DEPENDENCIES:
+  - VietQRPay (from `../`)
+
+EXTERNAL SOURCES:
+  VietQRPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VietQRPay: 42deba93bfab84a6e30633b940427e18ee4da278
+
+PODFILE CHECKSUM: 33c2f8e092011104e40c1e932ad092cd1d35dd47
+
+COCOAPODS: 1.11.3

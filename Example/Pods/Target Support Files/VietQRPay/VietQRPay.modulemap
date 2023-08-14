@@ -1,0 +1,6 @@
+framework module VietQRPay {
+  umbrella header "VietQRPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

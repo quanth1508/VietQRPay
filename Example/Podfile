@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'VietQRPay_Example' do
+  pod 'VietQRPay',
+  :path => '../'
+
+  target 'VietQRPay_Tests' do
+    inherit! :search_paths
+  end
+  
+end
