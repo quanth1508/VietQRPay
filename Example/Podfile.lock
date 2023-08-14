@@ -1,5 +1,5 @@
 PODS:
-  - VietQRPay (0.0.1)
+  - VietQRPay (0.1.0)
 
 DEPENDENCIES:
   - VietQRPay (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VietQRPay: f89d7da9a4cf3b0c03fc90dc65c17eea2a75167e
+  VietQRPay: a4284431ee072333c27b6c91e7644bd9c6d82d3a
 
-PODFILE CHECKSUM: 33c2f8e092011104e40c1e932ad092cd1d35dd47
+PODFILE CHECKSUM: 8813bcc39d4267d83909aabade5b738abfc8f9eb
 
 COCOAPODS: 1.12.1
